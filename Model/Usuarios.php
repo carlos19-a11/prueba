@@ -2,7 +2,7 @@
 /**
 * 
 */
-class Alumno
+class Usuarios
 {
 	private $id;
 	private $nombres;
@@ -81,7 +81,7 @@ class Alumno
 		$select=$db->query('SELECT * FROM alumno order by id');
 
 		foreach($select->fetchAll() as $alumno){
-			$listaAlumnos[]=new Alumno($alumno['id'],$alumno['nombres'],$alumno['apellidos'],$alumno['estado']);
+			$listaAlumnos[]=new Usuarios($alumno['id'],$alumno['nombres'],$alumno['apellidos'],$alumno['estado']);
 		}
 		return $listaAlumnos;
 	}
@@ -95,7 +95,7 @@ class Alumno
 		$alumnoDb=$select->fetch();
 
 
-		$alumno = new Alumno ($alumnoDb['id'],$alumnoDb['nombres'], $alumnoDb['apellidos'], $alumnoDb['estado']);
+		$alumno = new Usuarios ($alumnoDb['id'],$alumnoDb['nombres'], $alumnoDb['apellidos'], $alumnoDb['estado']);
 		//var_dump($alumno);
 		//die();
 		return $alumno;
