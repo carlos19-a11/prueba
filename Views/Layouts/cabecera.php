@@ -16,10 +16,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
                 <ul id="primary-menu" class="navbar-nav" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
                     <li id="menu-item-27774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27774 nav-item">
-                        <a itemprop="url" href="#" class="nav-link"><span itemprop="name">Home</span></a>
+                        <a itemprop="url" href="?controller=Home&action=index" class="nav-link"><span itemprop="name">Home</span></a>
                     </li>
                     <li id="menu-item-27772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27772 nav-item">
-                        <a itemprop="url" href="pages/Nosotros.php" class="nav-link"><span itemprop="name">Nosotros</span></a>
+                        <a itemprop="url" href="?controller=Home&action=nosotros" href="pages/Nosotros.php" class="nav-link"><span itemprop="name">Nosotros</span></a>
                     </li>
                     <li id="menu-item-28247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28247 nav-item">
                         <a itemprop="url" href="#" class="nav-link"><span itemprop="name">Experiencia</span></a>
