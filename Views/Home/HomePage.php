@@ -249,7 +249,7 @@
             </div>
         </section>
 
-        <!-- <section
+        <section
       class="elementor-section elementor-top-section elementor-element elementor-element-9a082bb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
       data-id="9a082bb" data-element_type="section"
       data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -388,9 +388,9 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section> 
 
-        <!-- <section
+        <section
       class="elementor-section elementor-top-section elementor-element elementor-element-b1f9203 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
       data-id="b1f9203" data-element_type="section">
       <div class="elementor-container elementor-column-gap-default">
@@ -419,13 +419,12 @@
                     </span>
                   </a>
                 </div>
-                end Video Play Button
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section> 
 
         <section class="elementor-section elementor-top-section elementor-element elementor-element-d7b9399 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="d7b9399" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-background-overlay"></div>

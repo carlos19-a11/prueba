@@ -1,9 +1,8 @@
 <?php
 
 
-$controllers = array(
-	'Home' => ['index', 'nosotros', 'experiencia'],
-	'Dashboard' => ['index']
+$controllers=array(
+	'Home'=>['index','nosotros','experiencia','creg080','procedimeinto_sgc','pqr','consultar_facturaPage',]
 	// 'Home'=>['index','register','save','show','updateshow','update','delete','search','error']
 );
 
