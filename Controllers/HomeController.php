@@ -2,7 +2,7 @@
 /**
 * 
 */
-class UsuarioController
+class HomeController
 {
 	
 	function __construct()
@@ -17,6 +17,7 @@ class UsuarioController
 	function nosotros(){
 		require_once('Views/Home/NosotrosPage.php');
 	}
+	
 	function experiencia(){
 		require_once('Views/Home/ExperienciaPage.php');
 	}
@@ -43,45 +44,45 @@ class UsuarioController
 		}else{
 			$estado="on";
 		}
-		$alumno= new Alumno(null, $_POST['nombres'],$_POST['apellidos'],$estado);
+		$alumno= new Usuarios(null, $_POST['nombres'],$_POST['apellidos'],$estado);
 
-		Alumno::save($alumno);
+		Usuarios::save($alumno);
 		$this->show();
 	}
 
 	function show(){
-		$listaAlumnos=Alumno::all();
+		$listaAlumnos=Usuarios::all();
 
 		require_once('Views/Home/show.php');
 	}
 
 	function updateshow(){
 		$id=$_GET['idAlumno'];
-		$alumno=Alumno::searchById($id);
+		$alumno=Usuarios::searchById($id);
 		require_once('Views/Home/updateshow.php');
 	}
 
 	function update(){
-		$alumno = new Alumno($_POST['id'],$_POST['nombres'],$_POST['apellidos'],$_POST['estado']);
-		Alumno::update($alumno);
+		$alumno = new Usuarios($_POST['id'],$_POST['nombres'],$_POST['apellidos'],$_POST['estado']);
+		Usuarios::update($alumno);
 		$this->show();
 	}
 	function delete(){
 		$id=$_GET['id'];
-		Alumno::delete($id);
+		Usuarios::delete($id);
 		$this->show();
 	}
 
 	function search(){
 		if (!empty($_POST['id'])) {
 			$id=$_POST['id'];
-			$alumno=Alumno::searchById($id);
+			$alumno=Usuarios::searchById($id);
 			$listaAlumnos[]=$alumno;
 			//var_dump($id);
 			//die();
 			require_once('Views/Home/show.php');
 		} else {
-			$listaAlumnos=Alumno::all();
+			$listaAlumnos=Usuarios::all();
 
 			require_once('Views/Home/show.php');
 		}
