@@ -40,6 +40,10 @@
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/lity.min.css">
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.css">
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/fontawesome-all.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style23.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/nosotrso.css">
+
+
 
 </head>
 

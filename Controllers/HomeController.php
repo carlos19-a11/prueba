@@ -20,8 +20,18 @@ class UsuarioController
 	function experiencia(){
 		require_once('Views/Home/ExperienciaPage.php');
 	}
-
-
+	function creg080(){
+		require_once('Views/Home/CREG_080_de_2019Page.php');
+	}
+	function procedimeinto_sgc(){
+		require_once('Views/Home/Procedimientos_SGCPage.php');
+	}
+	function pqr(){
+		require_once('Views/Home/PQRPage.php');
+	}
+	function consultar_facturaPage(){
+		require_once('Views/Home/consultar_facturaPage.php');
+	}
 
 	function register(){
 		require_once('Views/Home/register.php');
