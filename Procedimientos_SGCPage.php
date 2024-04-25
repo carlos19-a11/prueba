@@ -1,9 +1,30 @@
-<br>
-<br>
-<br>
-<br>
+<?php require_once('config.php'); ?>
+<!DOCTYPE html>
+<html lang="es">
 
-<header id="main-header" class="main-header-bg" style="background-image: url(/assets/img/bg.png)">
+<head>
+	<title>Crud PHP</title>
+	<meta charset="utf-8">
+
+	<?php
+	require_once('./layouts/stylos.php');
+	?>
+</head>
+
+<body>
+	<header>
+		<?php
+		require_once('./layouts/cabecera.php');
+		?>
+
+	</header>
+    <br>
+    <br>
+    <br>
+    <br>
+
+	<section>
+    <header id="main-header" class="main-header-bg" style="background-image: url(/assets/img/bg.png)">
     <div class="container inner-header">
         <div class="title-wrap">
             <h1 class="header-title">Category: <span>Tips</span></h1>                <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
@@ -456,3 +477,14 @@
     </div>
 
 </footer><!-- #site-footer -->
+
+	
+	</section>
+
+	<?php
+	require_once('./layouts/scripts.php');
+	?>
+
+</body>
+
+</html>

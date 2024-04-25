@@ -1,9 +1,28 @@
-	<br>
-	<br>
-	<br>
-	<br>
+<?php require_once('config.php'); ?>
+<!DOCTYPE html>
+<html lang="es">
 
-    <nav id="pr-nav" class="primary-menu navbar navbar-expand-lg navbar-dark header-nav-txt-first-desktop">	
+<head>
+	<title>Crud PHP</title>
+	<meta charset="utf-8">
+
+	<?php
+	require_once('./layouts/stylos.php');
+	?>
+</head>
+
+<body>
+	<header>
+		<?php
+		require_once('./layouts/cabecera.php');
+		?>
+
+	</header>
+	<section>
+		<br>
+		<br>
+		<br>
+	<nav id="pr-nav" class="primary-menu navbar navbar-expand-lg navbar-dark header-nav-txt-first-desktop">	
 	</nav>
 				<div class="entry-content clearfix">
 					<div data-elementor-type="wp-page" data-elementor-id="28261" class="elementor elementor-28261">
@@ -359,3 +378,13 @@
 
 		</div>
 </footer>
+	</section>
+
+	<?php
+	require_once('./layouts/scripts.php');
+	?>
+
+</body>
+
+</html>
+   
