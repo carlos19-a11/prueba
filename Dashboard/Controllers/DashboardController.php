@@ -12,6 +12,11 @@ class DashboardController
 
     function index()
     {
+        require_once('Views/Dashboard/Layouts/layout.php');
+    }
+
+    function Inicio()
+    {
         require_once('Views/Dashboard/index.php');
     }
 }
