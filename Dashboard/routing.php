@@ -1,38 +1,34 @@
-<?php
+<?php 
 
 
 $controllers=array(
-	'Home'=>['index','nosotros','experiencia','creg080','procedimeinto_sgc','pqr','consultar_facturaPage',],
-	'Dashboard'=>['Inicio']
+	'Admin'=>['index',]
 );
-
-echo $controller;
 
 if (array_key_exists($controller,  $controllers)) {
 	if (in_array($action, $controllers[$controller])) {
 		call($controller, $action);
-	} else {
-		call('Home', 'error');
 	}
-} else {
-	call('Home', 'error');
+	else{
+		call('Admin','error');
+	}		
+}else{
+	call('Admin','error');
 }
 
-function call($controller, $action)
-{
-	require_once('Controllers/' . $controller . 'Controller.php');
+function call($controller, $action){
+	require_once('Controllers/'.$controller.'Controller.php');
 
 	switch ($controller) {
-		case 'Home':
-			require_once('Model/Usuarios.php');
-			$controller = new HomeController();
-			break;
-		case 'Dashboard':
-			$controller = new DashboardController();
-			break;
+		case 'Admin':
+		require_once('Model/Admin.php');
+		$controller= new AdminController();
+		break;			
 		default:
-			# code...
-			break;
+				# code...
+		break;
 	}
 	$controller->{$action}();
 }
+
+?>
