@@ -18,17 +18,17 @@
 
   <title>Spike Bootstrap Admin</title>
   <!-- jvectormap  -->
-  <link rel="stylesheet" href="<?php echo BASE_URL; ?>Dashboard/assets/css/jquery-jvectormap.css">
-  <link href="<?php echo BASE_URL; ?>Dashboard/fontawesome6/assets/css/fontawesome.css" rel="stylesheet" />
-  <link href="<?php echo BASE_URL; ?>Dashboard/fontawesome6/assets/css/brands.css" rel="stylesheet" />
-  <link href="<?php echo BASE_URL; ?>Dashboard/fontawesome6/assets/css/solid.css" rel="stylesheet" />
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/jquery-jvectormap.css">
+  <link href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/fontawesome.css" rel="stylesheet" />
+  <link href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/brands.css" rel="stylesheet" />
+  <link href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/solid.css" rel="stylesheet" />
 </head>
 
 <body>
   <!-- Toast -->
   <div class="toast toast-onload align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-body hstack align-items-start gap-6">
-      <i class="ti ti-alert-circle fs-6"></i>
+	<i class="fa-solid fa-user"></i>
       <div>
         <h5 class="text-white fs-3 mb-1">Welcome to Spike</h5>
         <h6 class="text-white fs-2 mb-0">Easy to costomize the Template!!!</h6>
@@ -2284,7 +2284,7 @@
       }
     </script>
     <button class="btn btn-primary p-3 rounded-circle d-flex align-items-center justify-content-center customizer-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-      <i class="icon ti ti-settings fs-7"></i>
+	<i class="fa fa-solid fa-gear" style="color: #ffffff;"></i>
     </button>
 
     <div class="offcanvas customizer offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">

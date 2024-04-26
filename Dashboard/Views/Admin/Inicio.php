@@ -6,7 +6,7 @@
           <h4 class="card-title mb-0">Default File Upload</h4>
           <div class="ms-auto flex-shrink-0">
             <button class="btn bg-primary-subtle text-primary btn-sm" title="View Code" data-bs-toggle="modal" data-bs-target="#view-code37-modal">
-              <i class="ti ti-code fs-5 d-flex"></i>
+              <i class="fa-solid fa-file"></i>
             </button>
             <!-- Code Modal -->
             <div id="view-code37-modal" class="modal fade" tabindex="-1" aria-hidden="true">
