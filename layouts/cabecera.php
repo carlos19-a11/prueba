@@ -24,7 +24,7 @@
                         <a itemprop="url" href="<?php echo BASE_URL ?>Nosotros.php" class="nav-link"><span itemprop="name">Nosotros</span></a>
                     </li>
                     <li id="menu-item-28247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28247 nav-item">
-                        <a itemprop="url" href="<?php echo BASE_URL ?>"  class="nav-link"><span itemprop="name">Experiencia</span></a>
+                        <a itemprop="url" href="<?php echo BASE_URL ?>ExperienciaPage.php"  class="nav-link"><span itemprop="name">Experiencia</span></a>
                     </li>
                     <li id="menu-item-23394" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-23394 nav-item">
                         <a href="#" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-23394">
@@ -32,11 +32,11 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-23394">
                             <li id="menu-item-27769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27769 nav-item">
-                                <a itemprop="url" href="<?php echo BASE_URL ?>"  class="dropdown-item"><span itemprop="name">CREG 080 de
+                                <a itemprop="url" href="<?php echo BASE_URL ?>CREG_080_de_2019Page.php"  class="dropdown-item"><span itemprop="name">CREG 080 de
                                         2019</span></a>
                             </li>
                             <li id="menu-item-27967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27967 nav-item">
-                                <a itemprop="url" href="<?php echo BASE_URL ?>" class="dropdown-item"><span itemprop="name">Procedimientos
+                                <a itemprop="url" href="<?php echo BASE_URL ?>Procedimientos_SGCPage.php" class="dropdown-item"><span itemprop="name">Procedimientos
                                         SGC</span></a>
                             </li>
                         </ul>
@@ -48,12 +48,12 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-23394">
                             <li id="menu-item-27967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27967 nav-item">
-                                <a itemprop="url" href="<?php echo BASE_URL ?>" class="dropdown-item"><span itemprop="name">PQR</span></a>
+                                <a itemprop="url" href="<?php echo BASE_URL ?>PQRPage.php" class="dropdown-item"><span itemprop="name">PQR</span></a>
                             </li>
                         </ul>
                     </li>
                     <!-- Fin de corrección -->
-                    <div class="header-cta"><a href="<?php echo BASE_URL ?>" target="_blank">
+                    <div class="header-cta"><a href="<?php echo BASE_URL ?>consultar_facturaPage.php" target="_blank">
                             <div class="d-inline-block elementor-button-link elementor-button elementor-size-md">
                                 Consultar factura</div>
                         </a>

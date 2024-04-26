@@ -234,10 +234,11 @@
 													<div class="elementor-widget-container">
 													</div>
 												</div>
-												<div class="elementor-element elementor-element-b83f8a6 elementor-widget elementor-widget-text-editor" data-id="b83f8a6" data-element_type="widget" data-widget_type="text-editor.default">
-													<div class="elementor-widget-container">
-														Oil and gas for a sustainable tomorrow</div>
-												</div>
+												<div class="elementor-element elementor-element-b83f8a6 elementor-widget elementor-widget-image" data-id="b83f8a6" data-element_type="widget" data-widget_type="image.default">
+    <div class="elementor-widget-container">
+        <img src="./assets/img/Icon2-1-1536x265.png" alt="Oil and gas for a sustainable tomorrow">
+    </div>
+</div>
 											</div>
 										</div>
 										<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-680e75d elementor-invisible" data-id="680e75d" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
@@ -268,7 +269,7 @@
 											<div class="elementor-widget-wrap elementor-element-populated">
 												<div class="elementor-element elementor-element-de629a7 elementor-widget elementor-widget-image" data-id="de629a7" data-element_type="widget" data-widget_type="image.default">
 													<div class="elementor-widget-container">
-														<img fetchpriority="high" decoding="async" width="1024" height="683" src="../wp-content/uploads/2023/04/4tiut4hg-1024x683.png" class="attachment-large size-large wp-image-28067" alt="" srcset="https://gola.peerduck.com/wp-content/uploads/2023/04/4tiut4hg-1024x683.png 1024w, https://gola.peerduck.com/wp-content/uploads/2023/04/4tiut4hg-300x200.png 300w, https://gola.peerduck.com/wp-content/uploads/2023/04/4tiut4hg-768x512.png 768w, https://gola.peerduck.com/wp-content/uploads/2023/04/4tiut4hg-1536x1025.png 1536w, https://gola.peerduck.com/wp-content/uploads/2023/04/4tiut4hg.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />
+														<img fetchpriority="high" decoding="async" width="1024" height="683" src="./assets/img/image-768x511.jpg" class="attachment-large size-large wp-image-28067" alt="" srcset="./assets/img/image-768x511.jpg 1024w, ./assets/img/image-768x511.jpg 300w, ./assets/img/image-768x511.jpg 768w, ./assets/img/image-768x511.jpg 1536w, ./assets/img/image-768x511.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />
 													</div>
 												</div>
 												<div class="elementor-element elementor-element-af3eee2 elementor-widget__width-auto elementor-absolute rotate elementor-widget elementor-widget-text-path" data-id="af3eee2" data-element_type="widget" data-settings="{&quot;text&quot;:&quot;shaping the future for tomorrow&quot;,&quot;align&quot;:&quot;center&quot;,&quot;_position&quot;:&quot;absolute&quot;,&quot;link&quot;:{&quot;url&quot;:&quot;&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;start_point&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]}}" data-widget_type="text-path.default">
@@ -296,7 +297,7 @@
 											<div class="elementor-widget-wrap elementor-element-populated">
 												<div class="elementor-element elementor-element-fa7cbdf elementor-widget elementor-widget-text-editor" data-id="fa7cbdf" data-element_type="widget" data-widget_type="text-editor.default">
 													<div class="elementor-widget-container">
-														About us </div>
+														 </div>
 												</div>
 												<div class="elementor-element elementor-element-f8f4606 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-ucaddon_gradient_underline_text_effect" data-id="f8f4606" data-element_type="widget" data-widget_type="ucaddon_gradient_underline_text_effect.default">
 													<div class="elementor-widget-container">
@@ -304,8 +305,8 @@
 
 
 														<div id="uc_gradient_underline_text_effect_elementor_f8f4606" class="gradient_underline_text_effect" style="color:#0C0C0C;">
-															<span class="beginning_text" style="color:;">Learn about our history, mission, and </span>
-															<span class="underline--magical" style="color:;">values</span>
+															<span class="beginning_text" style="color:;">Nuestra</span>
+															<span class="underline--magical" style="color:;">Mision</span>
 															<span class="ending_text" style="color:;"></span>
 														</div>
 														<!-- end Gradient Underline Text Effect -->
@@ -313,26 +314,86 @@
 												</div>
 												<div class="elementor-element elementor-element-8ff75a4 elementor-widget elementor-widget-text-editor" data-id="8ff75a4" data-element_type="widget" data-widget_type="text-editor.default">
 													<div class="elementor-widget-container">
-														At Gola, we&#8217;re committed to delivering excellence in the oil industry. With our state-of-the-art technology and advanced processes, we&#8217;re able to provide innovative solutions to meet the evolving needs of our clients worldwide. We pride ourselves on our commitment to safety, reliability, and sustainability, and we&#8217;re always looking for new ways to improve our operations. </div>
+													Nuestra organización se dedica a diseñar, construir, implementar y operar sistemas de gas combustible, agua potable, aguas negras, red contra incendios, gases medicinales hospitalarios, mejorando el estilo de vida de los usuarios, comprometidos con el medio ambiente, ofreciendo un servicio óptimo y de calidad que genere confianza y beneficios en los accionistas. </div>
 												</div>
 												<div class="elementor-element elementor-element-80e3b87 elementor-tablet-align-center elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="80e3b87" data-element_type="widget" data-widget_type="button.default">
 													<div class="elementor-widget-container">
 														<div class="elementor-button-wrapper">
-															<a class="elementor-button elementor-button-link elementor-size-xl" href="../contact-us/index.html">
+															<!-- <a class="elementor-button elementor-button-link elementor-size-xl" href="../contact-us/index.html">
 																<span class="elementor-button-content-wrapper">
 																	<span class="elementor-button-text">Discover more</span>
 																</span>
-															</a>
+															</a> -->
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
+										
 										<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7e40d66" data-id="7e40d66" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 											<div class="elementor-widget-wrap elementor-element-populated">
 												<div class="elementor-element elementor-element-5daa851 elementor-widget elementor-widget-image" data-id="5daa851" data-element_type="widget" data-widget_type="image.default">
 													<div class="elementor-widget-container">
-														<img decoding="async" width="1024" height="788" src="../wp-content/uploads/2023/04/i24uthg4-1024x788.png" class="attachment-large size-large wp-image-27971" alt="" srcset="https://gola.peerduck.com/wp-content/uploads/2023/04/i24uthg4-1024x788.png 1024w, https://gola.peerduck.com/wp-content/uploads/2023/04/i24uthg4-300x231.png 300w, https://gola.peerduck.com/wp-content/uploads/2023/04/i24uthg4-768x591.png 768w, https://gola.peerduck.com/wp-content/uploads/2023/04/i24uthg4-1536x1182.png 1536w, https://gola.peerduck.com/wp-content/uploads/2023/04/i24uthg4.png 1725w" sizes="(max-width: 1024px) 100vw, 1024px" />
+														<img decoding="async" width="1024" height="788" src="./assets/img/ingeniero-mantenimiento-que-trabaja-calderas-gas-equipos-sistemas-calefaccion-sala-calderas_29285-1341.jpg" class="attachment-large size-large wp-image-27971" alt="" srcset="./assets/img/ingeniero-mantenimiento-que-trabaja-calderas-gas-equipos-sistemas-calefaccion-sala-calderas_29285-1341.jpg 1024w, ./assets/img/ingeniero-mantenimiento-que-trabaja-calderas-gas-equipos-sistemas-calefaccion-sala-calderas_29285-1341.jpg 300w, ./assets/img/ingeniero-mantenimiento-que-trabaja-calderas-gas-equipos-sistemas-calefaccion-sala-calderas_29285-1341.jpg 768w, ./assets/img/ingeniero-mantenimiento-que-trabaja-calderas-gas-equipos-sistemas-calefaccion-sala-calderas_29285-1341.jpg 1536w, ./assets/img/ingeniero-mantenimiento-que-trabaja-calderas-gas-equipos-sistemas-calefaccion-sala-calderas_29285-1341.jpg 1725w" sizes="(max-width: 1024px) 100vw, 1024px" />
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-a426600 elementor-widget elementor-widget-html" data-id="a426600" data-element_type="widget" data-widget_type="html.default">
+													<div class="elementor-widget-container">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-89b7a46 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="89b7a46" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-background-overlay"></div>
+					<div class="elementor-container elementor-column-gap-default">
+						<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7915e39" data-id="7915e39" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-45ef873 elementor-reverse-tablet elementor-reverse-mobile elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="45ef873" data-element_type="section">
+									<div class="elementor-container elementor-column-gap-default">
+										<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-736cebd" data-id="736cebd" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+												<div class="elementor-element elementor-element-fa7cbdf elementor-widget elementor-widget-text-editor" data-id="fa7cbdf" data-element_type="widget" data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														 </div>
+												</div>
+												<div class="elementor-element elementor-element-f8f4606 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-ucaddon_gradient_underline_text_effect" data-id="f8f4606" data-element_type="widget" data-widget_type="ucaddon_gradient_underline_text_effect.default">
+													<div class="elementor-widget-container">
+														<!-- start Gradient Underline Text Effect -->
+
+
+														<div id="uc_gradient_underline_text_effect_elementor_f8f4606" class="gradient_underline_text_effect" style="color:#0C0C0C;">
+															<span class="beginning_text" style="color:;">Nuestra</span>
+															<span class="underline--magical" style="color:;">Visión</span>
+															<span class="ending_text" style="color:;"></span>
+														</div>
+														<!-- end Gradient Underline Text Effect -->
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-8ff75a4 elementor-widget elementor-widget-text-editor" data-id="8ff75a4" data-element_type="widget" data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+													Ser reconocidos como una empresa líder en diseño, construcción y consultoría en los diferentes servicios que se ofrecen a nuestros clientes, con alto desarrollo tecnológico, enfocando nuestros procesos a la mejora continua para asegurar el bienestar de la comunidad. </div>
+												</div>
+												<div class="elementor-element elementor-element-80e3b87 elementor-tablet-align-center elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="80e3b87" data-element_type="widget" data-widget_type="button.default">
+													<div class="elementor-widget-container">
+														<div class="elementor-button-wrapper">
+															<!-- <a class="elementor-button elementor-button-link elementor-size-xl" href="../contact-us/index.html">
+																<span class="elementor-button-content-wrapper">
+																	<span class="elementor-button-text">Discover more</span>
+																</span>
+															</a> -->
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7e40d66" data-id="7e40d66" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+											<div class="elementor-widget-wrap elementor-element-populated">
+												<div class="elementor-element elementor-element-5daa851 elementor-widget elementor-widget-image" data-id="5daa851" data-element_type="widget" data-widget_type="image.default">
+													<div class="elementor-widget-container">
+														<img decoding="async" width="1024" height="788" src="./assets/img/images12.jpg" class="attachment-large size-large wp-image-27971" alt="" srcset="./assets/img/images12.jpg 1024w, ./assets/img/images12.jpg 300w, ./assets/img/images12.jpg 768w, ./assets/img/images12.jpg 1536w, ./assets/img/images12.jpg 1725w" sizes="(max-width: 1024px) 100vw, 1024px" />
 													</div>
 												</div>
 												<div class="elementor-element elementor-element-a426600 elementor-widget elementor-widget-html" data-id="a426600" data-element_type="widget" data-widget_type="html.default">
@@ -347,9 +408,7 @@
 						</div>
 					</div>
 				</section>
-
-
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-f22b175 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="f22b175" data-element_type="section">
+				<!-- <section class="elementor-section elementor-inner-section elementor-element elementor-element-f22b175 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="f22b175" data-element_type="section">
 					<div class="elementor-container elementor-column-gap-default">
 						<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fe509a2" data-id="fe509a2" data-element_type="column">
 							<div class="elementor-widget-wrap elementor-element-populated">
@@ -383,8 +442,7 @@
 							</div>
 						</div>
 					</div>
-				</section>
-
+				</section> -->
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-88b2de7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="88b2de7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="elementor-background-overlay"></div>
 					<div class="elementor-container elementor-column-gap-default">
