@@ -169,7 +169,7 @@
                   <span class="p-2">
                     <i class="ti ti-dots fs-7"></i>
                   </span>
-                </a>
+                </a> 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <div class="d-flex align-items-center justify-content-between">
                     <a href="javascript:void(0)" class="nav-link d-flex d-lg-none align-items-center justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilenavbar" aria-controls="offcanvasWithBothOptions">

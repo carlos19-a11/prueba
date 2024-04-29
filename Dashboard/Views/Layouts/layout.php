@@ -37,9 +37,9 @@
     </div>
   </div>
   <!-- Preloader -->
-  <div class="preloader">
+  <!-- <div class="preloader">
     <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/loader.svg" alt="loader" class="lds-ripple img-fluid" />
-  </div>
+  </div> -->
   <div id="main-wrapper">
     <!-- Sidebar Start -->
     <aside class="left-sidebar with-vertical">
