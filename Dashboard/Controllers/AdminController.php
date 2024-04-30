@@ -5,6 +5,7 @@
  */
 require_once('connection.php');
 
+
 class AdminController
 {
 
@@ -17,46 +18,41 @@ class AdminController
 		require_once('Views/Admin/Inicio.php');
 	}
 
-	function savefacturas()
+	public static function savefacturas()
 	{
-		// die('AA');
-		var_dump($_REQUEST);
+		// Get the database connection
+		$db = Db::getConnect();
+
 		if (isset($_FILES['facturas']['name']) && !empty($_FILES['facturas']['name'][0])) {
 			$files = $_FILES['facturas'];
-
-			// Carpeta donde se guardarán las facturas
 			$targetDirectory = "C:/xampp/htdocs/distriserviciosp/assets/facturas/";
-			// $targetDirectory = BASE_URL."assets/facturas/";
-			
 
-			// echo ' $targetDirectory';
-			// echo  $targetDirectory;
-
-			// Iterar sobre cada archivo
+			// Iterate over each file
 			for ($i = 0; $i < count($files['name']); $i++) {
 				$fileName = basename($files['name'][$i]);
 				$targetPath = $targetDirectory . $fileName;
-				echo '$targetPath';
-				echo $files['tmp_name'][$i];
-				// Mover el archivo a la carpeta de destino
+
+				// Move the file to the destination folder
 				if (move_uploaded_file($files['tmp_name'][$i], $targetPath)) {
 					echo "El archivo $fileName se ha subido correctamente.<br>";
-					// Aquí puedes agregar código adicional, como insertar el nombre del archivo en una base de datos.
-					$sql = "INSERT INTO nombre_de_tu_tabla (nombre_archivo) VALUES ('$fileName')";
-					if ($conn->query($sql) === TRUE) {
+
+					// Insert the file name into the database
+					$insert = $db->prepare('INSERT INTO facturas (nombre,url) VALUES (:fileName, :targetPath)');
+					$insert->bindValue(':fileName', $fileName);
+					$insert->bindValue(':targetPath', $targetPath);
+
+					if ($insert->execute()) {
 						echo "Registro insertado correctamente en la base de datos.<br>";
 					} else {
-						echo "Error al insertar registro en la base de datos: " . $conn->error . "<br>";
+						echo "Error al insertar registro en la base de datos: " . $insert->errorInfo()[2] . "<br>";
 					}
 				} else {
 					echo "Hubo un error al subir el archivo $fileName.<br>";
 				}
 			}
-
 		} else {
 			echo "Por favor, selecciona al menos un archivo para subir.";
 		}
-		// require_once('Views/Admin/register.php');
 	}
 
 	function register()

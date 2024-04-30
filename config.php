@@ -7,4 +7,6 @@ $host = $_SERVER['HTTP_HOST'];
 
 // Ruta base del sitio web
 define('BASE_URL', $protocol . '://' . $host . '/distriserviciosp/');
+define('BASE_ROOT', 'C:/xampp/htdocs/distriserviciosp/');
+
 ?>
