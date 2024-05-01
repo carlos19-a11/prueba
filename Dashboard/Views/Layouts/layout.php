@@ -77,14 +77,14 @@
                 <span class="hide-menu ps-1">Inicio</span>
               </a>
             </li>
-            <!-- <li class="sidebar-item">
-              <a class="sidebar-link sidebar-link success-hover-bg" href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/index2.html" aria-expanded="false">
+            <li class="sidebar-item">
+              <a class="sidebar-link sidebar-link success-hover-bg" href="?controller=Admin&action=cosnultarfactura" aria-expanded="false">
                 <span class="aside-icon p-2 bg-success-subtle rounded-1">
                   <iconify-icon icon="solar:chart-line-duotone" class="fs-6"></iconify-icon>
                 </span>
-                <span class="hide-menu ps-1">Dashboard 2</span>
+                <span class="hide-menu ps-1">Consulta tu factura</span>
               </a>
-            </li> -->
+            </li>
 
             <!-- ============================= -->
             <!-- Apps -->
@@ -92,8 +92,8 @@
             <!-- <li class="nav-small-cap">
               <iconify-icon icon="solar:menu-dots-bold-duotone" class="nav-small-cap-icon fs-5"></iconify-icon>
               <span class="hide-menu">Apps</span>
-            </li> -->
-            <!-- <li class="sidebar-item">
+            </li>
+            <li class="sidebar-item">
               <a class="sidebar-link has-arrow success-hover-bg" href="javascript:void(0)" aria-expanded="false">
                 <span class="aside-icon p-2 bg-success-subtle rounded-1">
                   <iconify-icon icon="solar:smart-speaker-minimalistic-line-duotone" class="fs-6"></iconify-icon>
@@ -106,8 +106,8 @@
                     <span class="sidebar-icon"></span>
                     <span class="hide-menu">Shop One</span>
                   </a>
-                </li>
-                <li class="sidebar-item">
+                </li> -->
+                <!-- <li class="sidebar-item">
                   <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/eco-shop2.html" class="sidebar-link">
                     <span class="sidebar-icon"></span>
                     <span class="hide-menu">Shop Two</span>

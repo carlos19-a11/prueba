@@ -17,6 +17,10 @@ class AdminController
 	function register(){
 		require_once('Views/Admin/register.php');
 	}
+	function cosnultarfactura(){
+		// die('AAAA');
+		require_once('Views/Admin/consultafactura.php');
+	}
 
 	function save(){
 		if (!isset($_POST['estado'])) {
