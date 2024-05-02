@@ -1,0 +1,2 @@
+    $('#tablafacturas').DataTable();
+

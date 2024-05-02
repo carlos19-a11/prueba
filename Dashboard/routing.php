@@ -2,7 +2,7 @@
 
 
 $controllers=array(
-	'Admin'=>['index','savefacturas']
+	'Admin'=>['index','savefacturas', 'consultarfactura']
 );
 
 if (array_key_exists($controller,  $controllers)) {
@@ -22,6 +22,7 @@ function call($controller, $action){
 	switch ($controller) {
 		case 'Admin':
 		require_once('Model/Admin.php');
+		require_once('Model/Factura.php');
 		$controller= new AdminController();
 		break;			
 		default:

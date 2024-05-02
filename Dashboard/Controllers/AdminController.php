@@ -25,21 +25,23 @@ class AdminController
 
 		if (isset($_FILES['facturas']['name']) && !empty($_FILES['facturas']['name'][0])) {
 			$files = $_FILES['facturas'];
-			$targetDirectory = "C:/xampp/htdocs/distriserviciosp/assets/facturas/";
+			$targetDirectory = "c:/xampp/htdocs/distriserviciosp/assets/facturas/";
+			$targetUrl = "localhost/distriserviciosp/assets/facturas/";
 
 			// Iterate over each file
 			for ($i = 0; $i < count($files['name']); $i++) {
 				$fileName = basename($files['name'][$i]);
 				$targetPath = $targetDirectory . $fileName;
+				$targetUrlsave = $targetUrl . $fileName;
 
 				// Move the file to the destination folder
 				if (move_uploaded_file($files['tmp_name'][$i], $targetPath)) {
 					echo "El archivo $fileName se ha subido correctamente.<br>";
 
 					// Insert the file name into the database
-					$insert = $db->prepare('INSERT INTO facturas (nombre,url) VALUES (:fileName, :targetPath)');
+					$insert = $db->prepare('INSERT INTO facturas (nombre,url, fecha) VALUES (:fileName, :targetPath, NOW())');
 					$insert->bindValue(':fileName', $fileName);
-					$insert->bindValue(':targetPath', $targetPath);
+					$insert->bindValue(':targetPath', $targetUrlsave);
 
 					if ($insert->execute()) {
 						echo "Registro insertado correctamente en la base de datos.<br>";
@@ -59,8 +61,9 @@ class AdminController
 	{
 		require_once('Views/Admin/register.php');
 	}
-	function cosnultarfactura(){
+	function consultarfactura(){
 		// die('AAAA');
+		$listaFactura = Factura::allFactura();
 		require_once('Views/Admin/consultafactura.php');
 	}
 

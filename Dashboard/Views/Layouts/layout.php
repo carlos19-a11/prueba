@@ -22,20 +22,21 @@
   <link href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/fontawesome.css" rel="stylesheet" />
   <link href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/brands.css" rel="stylesheet" />
   <link href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/solid.css" rel="stylesheet" />
+  <link href="<?php echo BASE_URL; ?>Dashboard/assets/css/datatables.min.css" rel="stylesheet" />
 </head>
 
 <body>
   <!-- Toast -->
-  <div class="toast toast-onload align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <!-- <div class="toast toast-onload align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-body hstack align-items-start gap-6">
-	<i class="fa-solid fa-user"></i>
+      <i class="fa-solid fa-user"></i>
       <div>
         <h5 class="text-white fs-3 mb-1">Welcome to Spike</h5>
         <h6 class="text-white fs-2 mb-0">Easy to costomize the Template!!!</h6>
       </div>
       <button type="button" class="btn-close btn-close-white fs-2 m-0 ms-auto shadow-none" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
-  </div>
+  </div> -->
   <!-- Preloader -->
   <!-- <div class="preloader">
     <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/loader.svg" alt="loader" class="lds-ripple img-fluid" />
@@ -78,11 +79,11 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link sidebar-link success-hover-bg" href="?controller=Admin&action=cosnultarfactura" aria-expanded="false">
+              <a class="sidebar-link sidebar-link success-hover-bg" href="?controller=Admin&action=consultarfactura" aria-expanded="false">
                 <span class="aside-icon p-2 bg-success-subtle rounded-1">
                   <iconify-icon icon="solar:chart-line-duotone" class="fs-6"></iconify-icon>
                 </span>
-                <span class="hide-menu ps-1">Consulta tu factura</span>
+                <span class="hide-menu ps-1">Facturas</span>
               </a>
             </li>
 
@@ -107,7 +108,7 @@
                     <span class="hide-menu">Shop One</span>
                   </a>
                 </li> -->
-                <!-- <li class="sidebar-item">
+            <!-- <li class="sidebar-item">
                   <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/eco-shop2.html" class="sidebar-link">
                     <span class="sidebar-icon"></span>
                     <span class="hide-menu">Shop Two</span>
@@ -2284,7 +2285,7 @@
       }
     </script>
     <button class="btn btn-primary p-3 rounded-circle d-flex align-items-center justify-content-center customizer-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-	<i class="fa fa-solid fa-gear" style="color: #ffffff;"></i>
+      <i class="fa fa-solid fa-gear" style="color: #ffffff;"></i>
     </button>
 
     <div class="offcanvas customizer offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -2432,7 +2433,9 @@
   </div>
   <div class="dark-transparent sidebartoggler"></div>
   </div>
+  
   <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/vendor.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/jquery-3.7.1.js"></script>
   <!-- Import Js Files -->
   <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/simplebar.min.js"></script>
@@ -2448,6 +2451,11 @@
   <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/apexcharts.min.js"></script>
   <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/jquery-jvectormap-us-aea-en.js"></script>
   <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/dashboard.js"></script>
+  <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/dataTables.js"></script>
+  <script src="<?php echo BASE_URL; ?>Dashboard/assets/js/script.js"></script>
+ 
+
+
 </body>
 
 
