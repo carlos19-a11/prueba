@@ -60,8 +60,7 @@
       <ul id="facturas-preview" class="list-group"></ul>
     </div>
   </div>
-</div>
-<script>
+</div><script>
   document.getElementById('formFile').addEventListener('change', function(event) {
     const files = event.target.files;
     const facturasPreview = document.getElementById('facturas-preview');
@@ -103,4 +102,5 @@
       fileElements.push(facturaItem);
     });
   });
+
 </script>
