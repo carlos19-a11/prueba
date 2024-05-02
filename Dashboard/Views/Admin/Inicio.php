@@ -37,10 +37,9 @@
           input
         </p>
         <form class="mt-3" action="?controller=Admin&action=savefacturas" method="POST" enctype="multipart/form-data">
-          <input class="form-control" type="file" name="facturas[]" id="formFile" multiple>
+          <input class="form-control" type="file" name="facturas[]" id="formFile" multiple accept=".pdf">
           <br>
           <div class="d-md-flex align-items-center">
-
             <div class="ms-auto mt-3 mt-md-0">
               <button type="submit" class="btn btn-primary hstack gap-6">
                 <i class="fa-solid fa-paper-plane"></i>
@@ -53,3 +52,55 @@
     </div>
   </div>
 </div>
+<br>
+<div class="col-lg-12">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title mb-4">Facturas Seleccionadas</h4>
+      <ul id="facturas-preview" class="list-group"></ul>
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById('formFile').addEventListener('change', function(event) {
+    const files = event.target.files;
+    const facturasPreview = document.getElementById('facturas-preview');
+
+    // Limpiar la visualización previa
+    facturasPreview.innerHTML = '';
+
+    // Arreglo para almacenar referencias a los elementos de archivo seleccionados
+    const fileElements = [];
+
+    // Mostrar cada factura seleccionada
+    Array.from(files).forEach(file => {
+      const facturaItem = document.createElement('li');
+      facturaItem.className = 'list-group-item d-flex justify-content-between align-items-center';
+      facturaItem.textContent = file.name;
+
+      // Icono de eliminación
+      const deleteIcon = document.createElement('span');
+      deleteIcon.className = 'badge bg-danger rounded-pill';
+      deleteIcon.innerHTML = '<i class="fas fa-trash-alt"></i>';
+
+      // Eliminar el elemento al hacer clic en el icono
+      deleteIcon.addEventListener('click', function() {
+        // Eliminar el elemento de la lista de facturas seleccionadas
+        facturaItem.remove();
+        // Eliminar el archivo correspondiente del arreglo de archivos seleccionados
+        const index = fileElements.indexOf(facturaItem);
+        if (index !== -1) {
+          files.splice(index, 1);
+          // Actualizar el valor del input file para eliminar el archivo
+          event.target.value = '';
+        }
+      });
+
+      facturaItem.appendChild(deleteIcon);
+      facturasPreview.appendChild(facturaItem);
+
+      // Guardar referencia al elemento de archivo seleccionado
+      fileElements.push(facturaItem);
+    });
+  });
+</script>
