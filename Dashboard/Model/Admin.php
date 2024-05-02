@@ -63,9 +63,15 @@ class Admin
 
 	public static function save($alumno){
 		$db=Db::getConnect();
-		//var_dump($alumno);
-		//die();
-		
+
+		$insert=$db->prepare('INSERT INTO alumno VALUES (NULL, :nombres,:apellidos,:estado)');
+		$insert->bindValue('nombres',$alumno->getNombres());
+		$insert->bindValue('apellidos',$alumno->getApellidos());
+		$insert->bindValue('estado',$alumno->getEstado());
+		$insert->execute();
+	}
+	public static function savefacturas($alumno){
+		$db=Db::getConnect();
 
 		$insert=$db->prepare('INSERT INTO alumno VALUES (NULL, :nombres,:apellidos,:estado)');
 		$insert->bindValue('nombres',$alumno->getNombres());
