@@ -90,7 +90,7 @@
             <!-- ============================= -->
             <!-- Apps -->
             <!-- ============================= -->
-            <!-- <li class="nav-small-cap">
+            <li class="nav-small-cap">
               <iconify-icon icon="solar:menu-dots-bold-duotone" class="nav-small-cap-icon fs-5"></iconify-icon>
               <span class="hide-menu">Apps</span>
             </li>
@@ -103,11 +103,11 @@
               </a>
               <ul aria-expanded="false" class="collapse first-level">
                 <li class="sidebar-item">
-                  <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/eco-shop.html" class="sidebar-link">
+                  <a href="?controller=Admin&action=login" class="sidebar-link">
                     <span class="sidebar-icon"></span>
                     <span class="hide-menu">Shop One</span>
                   </a>
-                </li> -->
+                </li>
             <!-- <li class="sidebar-item">
                   <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/eco-shop2.html" class="sidebar-link">
                     <span class="sidebar-icon"></span>

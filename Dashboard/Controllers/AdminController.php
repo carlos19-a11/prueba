@@ -17,6 +17,10 @@ class AdminController
 	{
 		require_once('Views/Admin/Inicio.php');
 	}
+	function login()
+	{
+		require_once('Views/Admin/login.php');
+	}
 
 	public static function savefacturas()
 	{
