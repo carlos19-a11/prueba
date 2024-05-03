@@ -17,8 +17,9 @@ class AdminController
 	{
 		require_once('Views/Admin/Inicio.php');
 	}
-	function login()
+	function AuthLogin()
 	{
+		echo 'A'; die();
 		require_once('Views/Admin/login.php');
 	}
 

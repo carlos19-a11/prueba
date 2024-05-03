@@ -2,7 +2,7 @@
 
 
 $controllers=array(
-	'Admin'=>['index','savefacturas', 'consultarfactura', 'login']
+	'Admin'=>['index','savefacturas', 'consultarfactura', 'AuthLogin']
 );
 
 if (array_key_exists($controller,  $controllers)) {
