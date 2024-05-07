@@ -3,7 +3,7 @@
     <div class="card-body">
       <div class="card-body">
         <div class="d-flex mb-3 align-items-center">
-          <h4 class="card-title mb-0">Default File Upload</h4>
+          <h4 class="card-title mb-0">Carga de archivos predeterminada</h4>
           <div class="ms-auto flex-shrink-0">
             <button class="btn bg-primary-subtle text-primary btn-sm" title="View Code" data-bs-toggle="modal" data-bs-target="#view-code37-modal">
               <i class="fa-solid fa-file"></i>
@@ -14,7 +14,7 @@
                 <div class="modal-content">
                   <div class="modal-header border-bottom">
                     <h5 class="modal-title" id="exampleModalLabel">
-                      Default File Upload - View Code
+                    Carga de archivos predeterminada
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
@@ -29,13 +29,13 @@
             <!-- /.modal -->
           </div>
         </div>
-        <p class="mb-3 card-subtitle">
+        <!-- <p class="mb-3 card-subtitle">
           To use add
           <mark>
             <code>.form-control-file</code>
           </mark> class to the
           input
-        </p>
+        </p> -->
         <form class="mt-3" action="?controller=Admin&action=savefacturas" method="POST" enctype="multipart/form-data">
           <input class="form-control" type="file" name="facturas[]" id="formFile" multiple accept=".pdf">
           <br>
@@ -43,7 +43,7 @@
             <div class="ms-auto mt-3 mt-md-0">
               <button type="submit" class="btn btn-primary hstack gap-6">
                 <i class="fa-solid fa-paper-plane"></i>
-                Submit
+                Enviar
               </button>
             </div>
           </div>

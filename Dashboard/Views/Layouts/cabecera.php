@@ -160,8 +160,8 @@
                 </ul> -->
 
                 <div class="d-block d-lg-none py-3">
-                  <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/logo-light.svg" class="dark-logo" alt="Logo-Dark" />
-                  <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/logo-dark.svg" class="light-logo" alt="Logo-light" />
+                  <img src="/distriserviciosp/assets/img/logo.png" class="dark-logo" alt="Logo-Dark" />
+                  <img src="/distriserviciosp/assets/img/logo.png" class="light-logo" alt="Logo-light" />
                 </div>
 
 
@@ -575,7 +575,7 @@
 
                             <div class="d-none d-sm-block">
                               <h6 class="fs-4 mb-1 profile-name">
-                                Mike Nielsen
+                                DistriserviciosController
                               </h6>
                               <p class="fs-3 lh-base mb-0 profile-subtext">
                                 Admin
@@ -586,18 +586,18 @@
                         <div class="dropdown-menu content-dd dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop1">
                           <div class="profile-dropdown position-relative" data-simplebar>
                             <div class="d-flex align-items-center justify-content-between pt-3 px-7">
-                              <h3 class="mb-0 fs-5">User Profile</h3>
+                              <h3 class="mb-0 fs-5">Perfil del usuario</h3>
 
                             </div>
 
                             <div class="d-flex align-items-center mx-7 py-9 border-bottom">
                               <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/profile/user-1.jpg" alt="user" width="90" class="rounded-circle" />
                               <div class="ms-4">
-                                <h4 class="mb-0 fs-5 fw-normal">Mike Nielsen</h4>
-                                <span class="text-muted">super admin</span>
+                                <h4 class="mb-0 fs-5 fw-normal">DistriserviciosController</h4>
+                                <span class="text-muted">superadministrador</span>
                                 <p class="text-muted mb-0 mt-1 d-flex align-items-center">
                                   <iconify-icon icon="solar:mailbox-line-duotone" class="fs-4 me-1"></iconify-icon>
-                                  info@spike.com
+                                  servicioalcliente@distriserviciosesp.com
                                 </p>
                               </div>
                             </div>
@@ -609,23 +609,24 @@
                                 </span>
                                 <div class="w-100 ps-3 ms-1">
                                   <h5 class="mb-0 mt-1 fs-4 fw-normal">
-                                    My Profile
+                                  Mi perfil
+
                                   </h5>
-                                  <span class="fs-3 d-block mt-1 text-muted">Account Settings</span>
+                                  <span class="fs-3 d-block mt-1 text-muted">Configuraciones de la cuenta</span>
                                 </div>
                               </a>
 
-                              <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/app-email.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+                              <!-- <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/app-email.html" class="dropdown-item px-7 d-flex align-items-center py-6">
                                 <span class="btn px-3 py-2 bg-success-subtle rounded-1 text-success shadow-none">
                                   <iconify-icon icon="solar:shield-minimalistic-line-duotone" class="fs-7"></iconify-icon>
                                 </span>
                                 <div class="w-100 ps-3 ms-1">
-                                  <h5 class="mb-0 mt-1 fs-4 fw-normal">My Inbox</h5>
+                                  <h5 class="mb-0 mt-1 fs-4 fw-normal">Mi bandeja de entrada</h5>
                                   <span class="fs-3 d-block mt-1 text-muted">Messages & Emails</span>
                                 </div>
-                              </a>
+                              </a> -->
 
-                              <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/app-notes.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+                              <!-- <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/app-notes.html" class="dropdown-item px-7 d-flex align-items-center py-6">
                                 <span class="btn px-3 py-2 bg-danger-subtle rounded-1 text-danger shadow-none">
                                   <iconify-icon icon="solar:card-2-line-duotone" class="fs-7"></iconify-icon>
                                 </span>
@@ -634,11 +635,11 @@
                                   <span class="fs-3 d-block mt-1 text-muted">To-do and Daily
                                     Tasks</span>
                                 </div>
-                              </a>
+                              </a> -->
                             </div>
 
                             <div class="py-6 px-7 mb-1">
-                              <a href="http://localhost/distriserviciosp/Dashboard/index.php" class="btn btn-primary w-100">Log Out</a>
+                              <a href="http://localhost/distriserviciosp/Dashboard/index.php" class="btn btn-primary w-100">Cerrar sesión</a>
                             </div>
                           </div>
                         </div>
@@ -816,8 +817,8 @@
                 <ul class="navbar-nav">
                   <li class="nav-item d-none d-xl-block">
                     <a href="index.html" class="text-nowrap nav-link">
-                      <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/logo-light.svg" class="dark-logo" width="180" alt="spike-img" />
-                      <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/logo-dark.svg" class="light-logo" width="180" alt="spike-img" />
+                      <img src="/distriserviciosp/assets/img/logo.png" class="dark-logo" width="180" alt="spike-img" />
+                      <img src="/distriserviciosp/assets/img/logo.png" class="light-logo" width="180" alt="spike-img" />
                     </a>
                   </li>
                 </ul>

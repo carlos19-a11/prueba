@@ -11,12 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Favicon icon-->
-  <link rel="shortcut icon" type="image/png" href="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="/distriserviciosp/assets/img/icono.png" />
 
   <!-- Core Css -->
   <link rel="stylesheet" href="<?php echo BASE_URL; ?>Dashboard/assets/css/styles.css" />
 
-  <title>Spike Bootstrap Admin</title>
+  <title>DistriserviciosController</title>
   <!-- jvectormap  -->
   <link rel="stylesheet" href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/jquery-jvectormap.css">
   <link href="<?php echo BASE_URL; ?>Dashboard/assets/fontawesome6/css/fontawesome.css" rel="stylesheet" />
@@ -43,8 +43,26 @@
   <!-- <div class="preloader">
     <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/loader.svg" alt="loader" class="lds-ripple img-fluid" />
   </div> -->
+  
+  <style>
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-container img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+</style>
 
   <?php if (true) { ?>
+    <style>
+  .dark-logo {
+    max-width: 100%; /* Define el tamaño máximo deseado para el icono */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  }
+</style>
 
     <div id="main-wrapper">
       <!-- Sidebar Start -->
@@ -54,7 +72,7 @@
         <!-- ---------------------------------- -->
         <div class="brand-logo d-flex align-items-center justify-content-between">
           <a href="index.html" class="text-nowrap logo-img">
-            <img src="https://bootstrapdemos.wrappixel.com/spike/dist/assets/images/logos/logo-light.svg" class="dark-logo" alt="Logo-Dark" />
+            <img src="/distriserviciosp/assets/img/logo.png" class="dark-logo" alt="Logo-Dark" />
             <!-- <img src="https://bootstrapdemos.wrappixe
           l.com/spike/dist/assets/images/logos/logo-dark.svg" class="light-logo" alt="Logo-light" /> -->
           </a>
@@ -95,7 +113,7 @@
               <!-- ============================= -->
               <!-- Apps -->
               <!-- ============================= -->
-              <li class="nav-small-cap">
+              <!-- <li class="nav-small-cap">
                 <iconify-icon icon="solar:menu-dots-bold-duotone" class="nav-small-cap-icon fs-5"></iconify-icon>
                 <span class="hide-menu">Apps</span>
               </li>
@@ -112,7 +130,7 @@
                       <span class="sidebar-icon"></span>
                       <span class="hide-menu">Shop One</span>
                     </a>
-                  </li>
+                  </li> -->
                   <!-- <li class="sidebar-item">
                   <a href="https://bootstrapdemos.wrappixel.com/spike/dist/minisidebar/eco-shop2.html" class="sidebar-link">
                     <span class="sidebar-icon"></span>
@@ -2446,43 +2464,46 @@
         <div class="auth-login-shape position-relative w-100">
           <div class="auth-login-wrapper card mb-0 container position-relative z-1 h-100 mh-n100" data-simplebar="">
             <div class="card-body">
-              <a href="index.html" class="">
-                <img src="../assets/images/logos/logo-dark.svg" class="light-logo" alt="Logo-Dark">
-                <img src="../assets/images/logos/logo-light.svg" class="dark-logo" alt="Logo-light">
-              </a>
+            <a href="index.html" class="logo-container">
+  <img src="/distriserviciosp/assets/img/logo.png" class="light-logo" alt="Logo-Dark">
+</a>
+
+<a href="index.html" class="logo-container">
+  <img src="/distriserviciosp/assets/img/logo.png" class="dark-logo" alt="Logo-light">
+</a>
               <div class="row align-items-center justify-content-around pt-6 pb-5">
                 <div class="col-lg-6 col-xl-5 d-none d-lg-block">
                   <div class="text-center text-lg-start">
-                    <img src="../assets/images/backgrounds/login-security.png" alt="spike-img" class="img-fluid">
+                    <img src="/distriserviciosp/assets/img/logo.png" alt="spike-img" class="img-fluid">
                   </div>
                 </div>
                 <div class="col-lg-6 col-xl-5">
-                  <h2 class="mb-6 fs-8 fw-bolder">Welcome to Spike Admin</h2>
-                  <p class="text-dark fs-4 mb-7">Your Admin Dashboard</p>
+                  <h2 class="mb-6 fs-8 fw-bolder">Bienvenido al Distriservicios Controller</h2>
+                  <!-- <p class="text-dark fs-4 mb-7">Your Admin Dashboard</p> -->
                   <form>
                     <div class="mb-7">
-                      <label for="exampleInputEmail1" class="form-label fw-bold">Username</label>
+                      <label for="exampleInputEmail1" class="form-label fw-bold">Nombre de usuario</label>
                       <input type="email" class="form-control py-6" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="mb-9">
-                      <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
+                      <label for="exampleInputPassword1" class="form-label fw-bold">Contraseña</label>
                       <input type="password" class="form-control py-6" id="exampleInputPassword1">
                     </div>
                     <div class="d-md-flex align-items-center justify-content-between mb-7 pb-1">
                       <div class="form-check mb-3 mb-md-0">
                         <input class="form-check-input primary" type="checkbox" value="" id="flexCheckChecked" checked="">
                         <label class="form-check-label text-dark fs-3" for="flexCheckChecked">
-                          Remeber this Device
+                        Recuerda este dispositivo
                         </label>
                       </div>
-                      <a class="text-primary fw-medium fs-3 fw-bold" href="authentication-forgot-password.html">Forgot
-                        Password ?</a>
+                      <a class="text-primary fw-medium fs-3 fw-bold" href="authentication-forgot-password.html">olvidar tu
+                        Contraseña ?</a>
                     </div>
                     <a href="http://localhost/distriserviciosp/Dashboard/index.php?data=1" class="btn btn-primary w-100 mb-7 rounded-pill">Sign In</a>
                     <div class="d-flex align-items-center">
-                      <p class="fs-3 mb-0 fw-medium">New to Spike?</p>
-                      <a class="text-primary fw-bold ms-2 fs-3" href="authentication-register.html">Create an
-                        account</a>
+                      <!-- <p class="fs-3 mb-0 fw-medium">New to Spike?</p> -->
+                      <!-- <a class="text-primary fw-bold ms-2 fs-3" href="authentication-register.html">Create an
+                        account</a> -->
                     </div>
                   </form>
                 </div>
